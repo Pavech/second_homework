@@ -23,7 +23,7 @@ def crater_moon(matrix: list, x: int, y: int, line: int, stl: int) -> None:
 
 
 def calculate(my_input: list) -> int:
-    """Заменить эту функцию своей."""
+    """Функция подсчета кратеров"""
     count_crater = 0
     line = len(my_input)
     stl = len(my_input[0])
